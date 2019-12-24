@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 // import List from './List';
-// import BlogForm from './BlogForm';
+import BlogForm from './BlogForm';
 
 
 class Blog extends Component {
@@ -72,7 +72,6 @@ class Blog extends Component {
         <List blogs={this.state.blogs} deleteBlog={this.deleteBlog} updateBlog={this.updateBlog} />
       </>
     )
-
   }
 }
 
