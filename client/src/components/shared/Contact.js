@@ -10,7 +10,7 @@ const Contact = () => (
     <List.Item>
     <img src="https://img.icons8.com/nolan/32/000000/email-sign.png" />
       <List.Content>
-        <a>Somchayk@yahoo.com</a>
+        <a href="mailto:Somchayk@yahoo.com">Somchayk@yahoo.com</a>
       </List.Content>
     </List.Item>
     <List.Item>
