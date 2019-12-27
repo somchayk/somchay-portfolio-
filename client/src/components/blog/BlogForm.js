@@ -52,4 +52,4 @@ class BlogForm extends Component {
 }
 
 
-export default BlogPost;
+export default BlogForm;

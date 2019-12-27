@@ -17,10 +17,10 @@ const Navbar = () => (
         <img src="https://img.icons8.com/ios/45/000000/person-pointing.png"></img>
       </Menu.Item>
     </Link>
-    <Link to='/blogs'>
+    <Link to='/project'>
       <Menu.Item>
-      <img src="https://img.icons8.com/nolan/45/000000/pencil.png"></img>
-        Blogs
+      <img src="https://img.icons8.com/color/45/000000/intel-isef.png"/>
+        Projects
       </Menu.Item>
     </Link>
     <Link to='/contact'>
