@@ -7,6 +7,7 @@ import NoMatch from './components/shared/NoMatch';
 import Navbar from './components/shared/Navbar';
 import Project from './components/shared/Project';
 import Contact from './components/shared/Contact';
+import './App.css';
 
 
 

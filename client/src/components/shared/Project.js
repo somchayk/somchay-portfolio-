@@ -50,9 +50,9 @@ const Project = () => (
             <Card>
               <Image src='https://images.unsplash.com/photo-1543185377-99cd16011803?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Doctor's Appointment</Card.Header>
+                <Card.Header>Japan Cinematic</Card.Header>
                   <Card.Meta>
-                   <span className='rails'>Rails</span>
+                   <span className='youtube'>Youtube</span>
                   </Card.Meta>
                  <Card.Description>
                   I was started to practice editing videos. The channel mainly contest of fishing but started to get into cinematic and vlogs.
