@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-// import List from './List';
+import List from './List';
 import BlogForm from './BlogForm';
 
 
 class Blog extends Component {
   state = { blogs: [], adding: false } 
 
-  componentDidAmount() {
+  componentDidMount() {
     axios.get('/api/blogs')
-      .then( rest => {
-        this.setState({ blogs: rest.data })
+      .then( res => {
+        this.setState({ blogs: res.data })
       })
       .catch( err => {
         console.log(err)
@@ -20,8 +20,9 @@ class Blog extends Component {
   toggleAdd = () => this.setState({ adding: !this.state.adding })
 
   addBlog = (blog) => {
-    axios.post('api/blogs', blog)
+    axios.post(`api/blogs`, blog)
       .then( res => {
+        debugger
         const { blogs } = this.state
         this.setState({ blogs: [...blogs, res.data] })
       })

@@ -1,4 +1,4 @@
-class Api::SomchayPortfoliosController < ApplicationController
+class Api::BlogsController < ApplicationController
 
 def index
   render json: Blog.all

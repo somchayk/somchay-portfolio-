@@ -23,6 +23,7 @@ class BlogForm extends Component {
       this.props.updateBlog( this.props.id, this.state )
       this.props.toggleEdit()
     } else {
+
       this.props.addBlog(this.state)
       this.props.toggleAdd()
     }

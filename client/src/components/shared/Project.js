@@ -14,7 +14,7 @@ const Project = () => (
                    <span className='ruby'>React</span>
                   </Card.Meta>
                  <Card.Description>
-                  Create a Grocery list that will allow you add items, cross off items, edit and delete items.                                                                            
+                  Create a Grocery list through React that will allow you add items, cross off items, edit and delete items.                                                                            
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -52,10 +52,10 @@ const Project = () => (
               <Card.Content>
                 <Card.Header>Japan Cinematic</Card.Header>
                   <Card.Meta>
-                   <span className='youtube'>Youtube</span>
+                   <span className='youtube'>Premiere Pro</span>
                   </Card.Meta>
                  <Card.Description>
-                  I was started to practice editing videos. The channel mainly contest of fishing but started to get into cinematic and vlogs.
+                  I was started to practice editing videos using Adobe Premire Pro and Premire Rush. The channel mainly contest of fishing but started to get into cinematic and vlogs.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
