@@ -15,6 +15,10 @@ const List = ({ blogs, deleteBlog, updateBlog }) => (
               <Button color='pink' onClick={ () => deleteBlog(blog.id) }>
                 <Icon name='trash' />
                 </Button>
+
+                <Button color='green' onClick={ () => updateBlog(blog.id) }>
+                <Icon name='pencil' />
+                </Button>
           </Card.Content>
         </Card>
         ))}
