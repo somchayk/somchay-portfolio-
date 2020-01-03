@@ -1,21 +1,24 @@
 import React from 'react';
 import Blog from './Blog';
-import { Table } from 'semantic-ui-react';
+import { Card, Grid, Button, Icon } from 'semantic-ui-react';
 
 const List = ({ blogs, deleteBlog, updateBlog }) => (
   <>
-    <Table celled>
-      <Table.Body>
-        {blogs.map(blog => (
-          <Table.Header>
-            <Table.Row>
-              <Table.HeaderCell>Title: {blog.title}</Table.HeaderCell>
-              <Table.HeaderCell>Body: {blog.body}</Table.HeaderCell>
-            </Table.Row>
-          </Table.Header>
+    <Grid divided='vertically' columns={200}>
+      {blogs.map(blog => (
+        <Card>
+          <Card.Content>
+            <Card.Header> {blog.title} </Card.Header>
+            <Card.Description>
+              {blog.body}
+            </Card.Description>
+              <Button color='pink' onClick={ () => deleteBlog(blog.id) }>
+                <Icon name='trash' />
+                </Button>
+          </Card.Content>
+        </Card>
         ))}
-      </Table.Body>
-    </Table>
+    </Grid>
   </>
 )
 

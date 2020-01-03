@@ -22,7 +22,6 @@ class Blog extends Component {
   addBlog = (blog) => {
     axios.post(`api/blogs`, blog)
       .then( res => {
-        debugger
         const { blogs } = this.state
         this.setState({ blogs: [...blogs, res.data] })
       })
