@@ -5,16 +5,16 @@ const Project = () => (
   <>
     <Header>My Projects</Header>
       <Grid divided='vertically' columns={3}>
-          <Grid.Column a href = 'https://github.com/somchayk/gl' target='_'>
+          <Grid.Column a href = 'https://hackathon-creator.herokuapp.com/' target='_'>
             <Card>
-              <Image src='https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' wrapped ui={false} />
+              <Image src='https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80' wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Grocery List</Card.Header>
+                <Card.Header>Hackathon</Card.Header>
                   <Card.Meta>
-                   <span className='ruby'>React</span>
+                   <span className='ruby'>Rails on React</span>
                   </Card.Meta>
                  <Card.Description>
-                  Create a Grocery list through React that will allow you add items, cross off items, edit and delete items.                                                                            
+                  Create a website for DevPoint labs to use during their hackathon(midterms). There's a student and admin side. Student side they can see a timer to when the event ends, the group they are assigned to, rubric and submit their github to be graded. Admin side they can start and end both countdown and lunch timers. Have a tasks for each TA to complete.                                                                        
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -25,16 +25,16 @@ const Project = () => (
               </Card>
             </Grid.Column>
 
-            <Grid.Column a href = 'https://github.com/somchayk/doctors_appt' target='_'>
+            <Grid.Column a href = 'https://repl.it/@MasonMan/Ruby-Casino' target='_'>
             <Card>
-              <Image src='https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80' wrapped ui={false} />
+              <Image src='https://images.unsplash.com/photo-1537154835319-14f43d91ea98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80' wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Doctor's Appointment</Card.Header>
+                <Card.Header>Casino</Card.Header>
                   <Card.Meta>
-                   <span className='rails'>Rails</span>
+                   <span className='rails'>Ruby</span>
                   </Card.Meta>
                  <Card.Description>
-                  Create a Doctor's Appointment through Rails that allows a person to create themselves as a new user and set up a time, date and which doctor they would like to go through.
+                  Created a casino where you can enter your name and amount of money you would like to start out with. Pick between 3 different games to test out your luck.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
